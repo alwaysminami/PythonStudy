@@ -1,3 +1,7 @@
+# https://wikidocs.net/180538 를 기반으로 작성
+# set PYTHONPATH=C:\Users\kissco\Desktop\python
+# python
+
 # 파이썬은 자바와 같은 중괄호의 구분이 없고, 들여쓰기를 원칙으로 함
 # 변수 선언 시 명시적인 변수의 형 선언이 필요하지 않음
 

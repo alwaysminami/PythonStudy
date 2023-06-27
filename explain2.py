@@ -150,9 +150,26 @@ f.close()
 
 # 파일의 모든 줄 출력
 # 마지막 줄의 다음이 되면 읽을 것이 더이상 없어 False가 되기에 자동으로 루프 종료
+# readline
 f = open("C:/doit/새파일.txt", 'r')
 while True:
     line = f.readline()
     if not line: break
+    print(line)
+f.close()
+# readlines
+f = open("C:/doit/새파일.txt", 'r')
+lines = f.readlines()
+for line in lines:
+    print(line)
+f.close()
+# read  파일 내용 전체를 문자열로 리턴
+f = open("C:/doit/새파일.txt", 'r')
+data = f.read()
+print(data)
+f.close()
+# 파일 객체를 사용
+f = open("C:/doit/새파일.txt", 'r')
+for line in f:
     print(line)
 f.close()
