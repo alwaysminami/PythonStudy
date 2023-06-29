@@ -1,4 +1,4 @@
-# https://wikidocs.net/180538 를 기반으로 작성
+# https://wikidocs.net/4308 를 기반으로 작성
 # set PYTHONPATH=C:\Users\kissco\Desktop\python
 # python
 
